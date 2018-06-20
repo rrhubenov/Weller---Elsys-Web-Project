@@ -1,0 +1,23 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5));
+}
+
+.image {
+    width: 40%;
+    height: 40%;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 25px;
+}
+
+.container {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: white;
+}
+
+.text {
+    background-color: lightblue;
+    opacity: 0.8;
+}

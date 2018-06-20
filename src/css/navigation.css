@@ -1,0 +1,21 @@
+.main-navigation {
+    float: right;
+    margin: 30px; 
+}
+
+.main-navigation li {
+    text-align: center;
+    display: inline-block;
+}
+
+.main-navigation li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-navigation li.current a{
+    border: 1px solid white;
+}

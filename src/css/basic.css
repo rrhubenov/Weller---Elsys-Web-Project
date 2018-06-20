@@ -1,0 +1,26 @@
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  html, body {
+    background-image: url('../../assets/support.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+  }
+
+  h2 {
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 70px;
+    color: rgb(190, 212, 233);
+    text-transform: uppercase;
+}
+  
+  

@@ -1,0 +1,56 @@
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 4fr 4fr 4fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 20px;
+    grid-template-areas: 
+        "t t t"
+        "o o o"
+        "e g b"
+        ". . .";
+}
+
+.title {
+    grid-area: t;
+    font-size: 8em;
+    text-transform: uppercase;
+    color: rgb(190, 212, 233);
+}
+
+.option {
+    grid-area: o;
+    font-size: 5em;
+    color: blanchedalmond;
+}
+
+.language {
+    margin-left: 12%;
+    width: 80%;
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: transform .2s;
+}
+
+#english { 
+    grid-area: e;
+    background-image: url('../../assets/flag_english.png');  
+}
+
+#german {
+    grid-area: g;
+    background-image: url('../../assets/flag_german.png');    
+}
+
+#bulgarian {
+    margin-right: 50px;
+    grid-area: b;
+    background-image: url('../../assets/flag_bulgarian.png');       
+}
+
+.language:hover {
+    transform: scale(1.2);
+}
+
+
